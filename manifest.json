@@ -1,0 +1,18 @@
+{
+    "name": "TimsHorton Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Automate form filler",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.telltims.ca/"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
