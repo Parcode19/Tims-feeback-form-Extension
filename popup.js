@@ -7,23 +7,29 @@ async function getActiveTabURL() {
     return tabs[0];
 }
   
-let extensionOn = false;
+
 document.addEventListener('DOMContentLoaded', function() {
     const toggleButton = document.getElementById('toggleButton');
-    const statu = document.getElementById('status');
+    const currentStatus = document.getElementById('status');
 
     const toggleExtension = async () => {
         const activeTab = await getActiveTabURL();
+        const statusText = currentStatus.innerText;
+        const surveyCode = document.getElementById("surveyCode").value;
 
-        extensionOn = !extensionOn;
-        statu.textContent = extensionOn ? "ON" : "OFF";
-
+        if (statusText === "OFF") {
+            currentStatus.innerText = "ON";
+        } else {
+            currentStatus.innerText = "OFF";
+        }
         chrome.tabs.sendMessage(activeTab.id, {
             type: "extensionValue",
-            value: extensionOn,
+            value: statusText,
+            surveyCode: surveyCode
         });
     }
 
     toggleButton.addEventListener('click', toggleExtension);
+
 });
 
