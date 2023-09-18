@@ -1,7 +1,7 @@
 # Tims-feedback-form-Extension
 
 ## Project Description
-This Chrome extension, named "Tims-feedback-form-Extension," is designed to automate the submission of feedback forms for Tim Hortons.
+This Chrome extension, named "Tims-feedback-form-Extension," is designed to automate the submission of feedback forms for Tim Hortons. Takes only 15.5 s to fill the whole form!
 
 ## Motive
 The primary motivation behind creating this extension was to embark on a fun project, enhance my understanding of Chrome extensions, and explore their practical applications in simplifying daily tasks.
