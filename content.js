@@ -99,7 +99,7 @@ function main() {
         setTimeout(() => {
             document.getElementById("QR~QID79").value = "all good";
             NextButton();
-        }, 15500)
+        }, 16000)
     }
 }
 
