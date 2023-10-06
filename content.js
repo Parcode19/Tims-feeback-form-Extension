@@ -16,28 +16,28 @@ function main() {
         setTimeout(function() {
             document.getElementById('QID15-5-label').click();
             NextButton();
-        }, 4400); 
+        }, 5400); 
         
         setTimeout(function() {
             document.getElementById("QR~QID80").value = "more friendly";
             NextButton();
-        }, 5400); 
+        }, 6400); 
         
         setTimeout(function() {
             document.getElementById('QID18-5-label').click();
             NextButton();
-        }, 6100); 
+        }, 7100); 
 
         setTimeout(function() {
             document.getElementById('QID19-5-label').click();
             NextButton();
             
-        }, 6800); 
+        }, 8800); 
 
         setTimeout(function() {
             document.getElementById('QID20-5-label').click();
             NextButton();
-        }, 7800); 
+        }, 9800); 
 
         setTimeout(() => {
             document.querySelector('input[id="QR~QID23~4~2"]').checked = true;
@@ -47,37 +47,37 @@ function main() {
             document.querySelector('input[id="QR~QID23~10~2"]').checked = true;
             document.querySelector('input[id="QR~QID23~11~2"]').checked = true;
             NextButton();
-        }, 8500)
+        }, 10500)
 
         setTimeout(() =>{
             NextButton();
-        }, 9300)
+        }, 11300)
 
         setTimeout(() =>{
             document.querySelector('input[id="QR~QID44~1~2"]').checked = true;
             document.querySelector('input[id="QR~QID44~3~2"]').checked = true;
             NextButton();
-        }, 10200)
+        }, 12200)
 
         setTimeout(() =>{
             document.getElementById('QID37-2-label').click();
             NextButton();
-        }, 11200)
+        }, 13200)
         
         setTimeout(() =>{
             document.getElementById('QID48-4-label').click();
             NextButton();
-        }, 11900)
+        }, 14900)
 
         setTimeout(() =>{
             document.getElementById('QID54-52-label').click();
             NextButton();
-        }, 12700)
+        }, 15700)
 
         setTimeout(() =>{
             document.getElementById('QID57-2-label').click();
             NextButton();
-        }, 13400)
+        }, 16400)
 
         setTimeout(() => {
             document.querySelector('input[id="QR~QID59~8~2"]').checked = true;
@@ -89,17 +89,17 @@ function main() {
             document.querySelector('input[id="QR~QID59~6~1"]').checked = true;
             document.querySelector('input[id="QR~QID59~7~2"]').checked = true;
             NextButton();
-        }, 14200)
+        }, 17200)
 
         setTimeout(() => {
             document.getElementById('QID74-5-label').click();
             NextButton();
-        }, 15000)
+        }, 18000)
 
         setTimeout(() => {
             document.getElementById("QR~QID79").value = "all good";
             NextButton();
-        }, 16000)
+        }, 19000)
     }
 }
 
